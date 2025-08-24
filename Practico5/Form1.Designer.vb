@@ -22,15 +22,15 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As DataGridViewCellStyle = New DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As DataGridViewCellStyle = New DataGridViewCellStyle()
         Panel1 = New Panel()
-        Button2 = New Button()
-        TextBox4 = New TextBox()
-        TextBox3 = New TextBox()
-        TextBox2 = New TextBox()
-        TextBox1 = New TextBox()
-        RadioButton2 = New RadioButton()
-        RadioButton1 = New RadioButton()
+        btnFoto = New Button()
+        TxtFoto = New TextBox()
+        txtSaldo = New TextBox()
+        txtApellido = New TextBox()
+        txtNombre = New TextBox()
+        rbMujer = New RadioButton()
+        rbHombre = New RadioButton()
         Label5 = New Label()
         Label4 = New Label()
         DateTimePicker1 = New DateTimePicker()
@@ -38,33 +38,33 @@ Partial Class Form1
         Label2 = New Label()
         Label1 = New Label()
         Button1 = New Button()
-        PictureBox1 = New PictureBox()
+        picFoto = New PictureBox()
         OpenFileDialog1 = New OpenFileDialog()
         DataGridView1 = New DataGridView()
         apellido = New DataGridViewTextBoxColumn()
+        nombre = New DataGridViewTextBoxColumn()
         fechNac = New DataGridViewTextBoxColumn()
         sexo = New DataGridViewTextBoxColumn()
-        eliminar = New DataGridViewTextBoxColumn()
+        eliminar = New DataGridViewButtonColumn()
         saldo = New DataGridViewTextBoxColumn()
-        foto = New DataGridViewTextBoxColumn()
+        foto = New DataGridViewImageColumn()
         ruta = New DataGridViewTextBoxColumn()
-        nombre = New DataGridViewTextBoxColumn()
         Panel1.SuspendLayout()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
+        CType(picFoto, ComponentModel.ISupportInitialize).BeginInit()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Panel1
         ' 
-        Panel1.BackgroundImage = My.Resources.Resources.catt
+        Panel1.BackgroundImage = My.Resources.Resources.cuadros_negros_734708
         Panel1.BackgroundImageLayout = ImageLayout.Stretch
-        Panel1.Controls.Add(Button2)
-        Panel1.Controls.Add(TextBox4)
-        Panel1.Controls.Add(TextBox3)
-        Panel1.Controls.Add(TextBox2)
-        Panel1.Controls.Add(TextBox1)
-        Panel1.Controls.Add(RadioButton2)
-        Panel1.Controls.Add(RadioButton1)
+        Panel1.Controls.Add(btnFoto)
+        Panel1.Controls.Add(TxtFoto)
+        Panel1.Controls.Add(txtSaldo)
+        Panel1.Controls.Add(txtApellido)
+        Panel1.Controls.Add(txtNombre)
+        Panel1.Controls.Add(rbMujer)
+        Panel1.Controls.Add(rbHombre)
         Panel1.Controls.Add(Label5)
         Panel1.Controls.Add(Label4)
         Panel1.Controls.Add(DateTimePicker1)
@@ -77,78 +77,78 @@ Partial Class Form1
         Panel1.Size = New Size(451, 257)
         Panel1.TabIndex = 0
         ' 
-        ' Button2
+        ' btnFoto
         ' 
-        Button2.Cursor = Cursors.Hand
-        Button2.Font = New Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Button2.Location = New Point(28, 173)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(75, 23)
-        Button2.TabIndex = 13
-        Button2.Text = "Foto"
-        Button2.UseVisualStyleBackColor = True
+        btnFoto.Cursor = Cursors.Hand
+        btnFoto.Font = New Font("Arial Narrow", 9.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        btnFoto.Location = New Point(28, 173)
+        btnFoto.Name = "btnFoto"
+        btnFoto.Size = New Size(75, 23)
+        btnFoto.TabIndex = 13
+        btnFoto.Text = "Foto"
+        btnFoto.UseVisualStyleBackColor = True
         ' 
-        ' TextBox4
+        ' TxtFoto
         ' 
-        TextBox4.Font = New Font("Arial Narrow", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox4.Location = New Point(154, 174)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(265, 20)
-        TextBox4.TabIndex = 12
+        TxtFoto.Font = New Font("Arial Narrow", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        TxtFoto.Location = New Point(154, 174)
+        TxtFoto.Name = "TxtFoto"
+        TxtFoto.Size = New Size(265, 20)
+        TxtFoto.TabIndex = 12
         ' 
-        ' TextBox3
+        ' txtSaldo
         ' 
-        TextBox3.Font = New Font("Arial Narrow", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox3.Location = New Point(154, 142)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(265, 20)
-        TextBox3.TabIndex = 11
+        txtSaldo.Font = New Font("Arial Narrow", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtSaldo.Location = New Point(154, 142)
+        txtSaldo.Name = "txtSaldo"
+        txtSaldo.Size = New Size(265, 20)
+        txtSaldo.TabIndex = 11
         ' 
-        ' TextBox2
+        ' txtApellido
         ' 
-        TextBox2.Font = New Font("Arial Narrow", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox2.Location = New Point(154, 45)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(265, 20)
-        TextBox2.TabIndex = 10
+        txtApellido.Font = New Font("Arial Narrow", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtApellido.Location = New Point(154, 45)
+        txtApellido.Name = "txtApellido"
+        txtApellido.Size = New Size(265, 20)
+        txtApellido.TabIndex = 10
         ' 
-        ' TextBox1
+        ' txtNombre
         ' 
-        TextBox1.Font = New Font("Arial Narrow", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox1.Location = New Point(154, 11)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(265, 20)
-        TextBox1.TabIndex = 9
+        txtNombre.Font = New Font("Arial Narrow", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        txtNombre.Location = New Point(154, 11)
+        txtNombre.Name = "txtNombre"
+        txtNombre.Size = New Size(265, 20)
+        txtNombre.TabIndex = 9
         ' 
-        ' RadioButton2
+        ' rbMujer
         ' 
-        RadioButton2.AutoSize = True
-        RadioButton2.BackColor = SystemColors.ActiveCaptionText
-        RadioButton2.Cursor = Cursors.Hand
-        RadioButton2.Font = New Font("Papyrus", 9.75F)
-        RadioButton2.ForeColor = Color.White
-        RadioButton2.Location = New Point(239, 107)
-        RadioButton2.Name = "RadioButton2"
-        RadioButton2.Size = New Size(63, 25)
-        RadioButton2.TabIndex = 8
-        RadioButton2.Text = "Mujer"
-        RadioButton2.UseVisualStyleBackColor = False
+        rbMujer.AutoSize = True
+        rbMujer.BackColor = SystemColors.ActiveCaptionText
+        rbMujer.Cursor = Cursors.Hand
+        rbMujer.Font = New Font("Papyrus", 9.75F)
+        rbMujer.ForeColor = Color.White
+        rbMujer.Location = New Point(239, 107)
+        rbMujer.Name = "rbMujer"
+        rbMujer.Size = New Size(63, 25)
+        rbMujer.TabIndex = 8
+        rbMujer.Text = "Mujer"
+        rbMujer.UseVisualStyleBackColor = False
         ' 
-        ' RadioButton1
+        ' rbHombre
         ' 
-        RadioButton1.AutoSize = True
-        RadioButton1.BackColor = SystemColors.ActiveCaptionText
-        RadioButton1.Checked = True
-        RadioButton1.Cursor = Cursors.Hand
-        RadioButton1.Font = New Font("Papyrus", 9.75F)
-        RadioButton1.ForeColor = Color.White
-        RadioButton1.Location = New Point(155, 107)
-        RadioButton1.Name = "RadioButton1"
-        RadioButton1.Size = New Size(78, 25)
-        RadioButton1.TabIndex = 7
-        RadioButton1.TabStop = True
-        RadioButton1.Text = "Hombre"
-        RadioButton1.UseVisualStyleBackColor = False
+        rbHombre.AutoSize = True
+        rbHombre.BackColor = SystemColors.ActiveCaptionText
+        rbHombre.Checked = True
+        rbHombre.Cursor = Cursors.Hand
+        rbHombre.Font = New Font("Papyrus", 9.75F)
+        rbHombre.ForeColor = Color.White
+        rbHombre.Location = New Point(155, 107)
+        rbHombre.Name = "rbHombre"
+        rbHombre.Size = New Size(78, 25)
+        rbHombre.TabIndex = 7
+        rbHombre.TabStop = True
+        rbHombre.Text = "Hombre"
+        rbHombre.UseVisualStyleBackColor = False
         ' 
         ' Label5
         ' 
@@ -220,7 +220,7 @@ Partial Class Form1
         ' 
         Button1.Cursor = Cursors.Hand
         Button1.FlatStyle = FlatStyle.Flat
-        Button1.Font = New Font("Arial", 8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Button1.Font = New Font("Arial", 8.0F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Button1.Image = My.Resources.Resources.vintage
         Button1.ImageAlign = ContentAlignment.MiddleLeft
         Button1.Location = New Point(185, 207)
@@ -233,16 +233,15 @@ Partial Class Form1
         Button1.TextImageRelation = TextImageRelation.ImageBeforeText
         Button1.UseVisualStyleBackColor = True
         ' 
-        ' PictureBox1
+        ' picFoto
         ' 
-        PictureBox1.BackgroundImage = My.Resources.Resources.user1
-        PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
-        PictureBox1.Cursor = Cursors.Default
-        PictureBox1.Location = New Point(516, 12)
-        PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(232, 257)
-        PictureBox1.TabIndex = 1
-        PictureBox1.TabStop = False
+        picFoto.BackgroundImageLayout = ImageLayout.Stretch
+        picFoto.Image = My.Resources.Resources.avatar
+        picFoto.Location = New Point(516, 12)
+        picFoto.Name = "picFoto"
+        picFoto.Size = New Size(232, 257)
+        picFoto.TabIndex = 1
+        picFoto.TabStop = False
         ' 
         ' OpenFileDialog1
         ' 
@@ -250,20 +249,20 @@ Partial Class Form1
         ' 
         ' DataGridView1
         ' 
-        DataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle1.BackColor = SystemColors.Control
-        DataGridViewCellStyle1.Font = New Font("Arial Narrow", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        DataGridViewCellStyle1.ForeColor = SystemColors.WindowText
-        DataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight
-        DataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText
-        DataGridViewCellStyle1.WrapMode = DataGridViewTriState.True
-        DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle1
-        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridView1.Columns.AddRange(New DataGridViewColumn() {apellido, fechNac, sexo, eliminar, saldo, foto, ruta, nombre})
-        DataGridView1.Cursor = Cursors.Default
+        DataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = SystemColors.Control
+        DataGridViewCellStyle2.Font = New Font("Arial Narrow", 8.25F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        DataGridViewCellStyle2.ForeColor = SystemColors.WindowText
+        DataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight
+        DataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = DataGridViewTriState.True
+        DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridView1.Columns.AddRange(New DataGridViewColumn() {apellido, nombre, fechNac, sexo, eliminar, saldo, foto, ruta})
         DataGridView1.Location = New Point(36, 293)
         DataGridView1.Name = "DataGridView1"
-        DataGridView1.RowTemplate.Height = 10
+        DataGridView1.RowHeadersWidth = 40
+        DataGridView1.RowTemplate.Height = 100
+        DataGridView1.RowTemplate.Resizable = DataGridViewTriState.True
         DataGridView1.Size = New Size(712, 236)
         DataGridView1.TabIndex = 2
         ' 
@@ -271,6 +270,11 @@ Partial Class Form1
         ' 
         apellido.HeaderText = "Apellido"
         apellido.Name = "apellido"
+        ' 
+        ' nombre
+        ' 
+        nombre.HeaderText = "Nombre"
+        nombre.Name = "nombre"
         ' 
         ' fechNac
         ' 
@@ -281,11 +285,14 @@ Partial Class Form1
         ' 
         sexo.HeaderText = "Sexo"
         sexo.Name = "sexo"
+        sexo.Resizable = DataGridViewTriState.True
         ' 
         ' eliminar
         ' 
         eliminar.HeaderText = "Eliminar"
         eliminar.Name = "eliminar"
+        eliminar.Resizable = DataGridViewTriState.True
+        eliminar.SortMode = DataGridViewColumnSortMode.Automatic
         ' 
         ' saldo
         ' 
@@ -294,37 +301,35 @@ Partial Class Form1
         ' 
         ' foto
         ' 
+        foto.AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells
         foto.HeaderText = "Foto"
         foto.Name = "foto"
+        foto.Resizable = DataGridViewTriState.True
+        foto.SortMode = DataGridViewColumnSortMode.Automatic
+        foto.Width = 50
         ' 
         ' ruta
         ' 
         ruta.HeaderText = "Ruta"
         ruta.Name = "ruta"
         ' 
-        ' nombre
-        ' 
-        nombre.HeaderText = "Nombre"
-        nombre.Name = "nombre"
-        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(14F, 33F)
         AutoScaleMode = AutoScaleMode.Font
-        BackgroundImage = My.Resources.Resources.tony
+        BackgroundImage = My.Resources.Resources.cuadros_negros_734708
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(786, 541)
         Controls.Add(DataGridView1)
-        Controls.Add(PictureBox1)
+        Controls.Add(picFoto)
         Controls.Add(Panel1)
-        Cursor = Cursors.Default
         Font = New Font("Papyrus", 16F)
         Margin = New Padding(5, 7, 5, 7)
         Name = "Form1"
         Text = "Formulario con DataGrid"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
-        CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
+        CType(picFoto, ComponentModel.ISupportInitialize).EndInit()
         CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
     End Sub
@@ -334,26 +339,26 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents rbHombre As RadioButton
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents Button2 As Button
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents rbMujer As RadioButton
+    Friend WithEvents btnFoto As Button
+    Friend WithEvents TxtFoto As TextBox
+    Friend WithEvents txtSaldo As TextBox
+    Friend WithEvents txtApellido As TextBox
+    Friend WithEvents txtNombre As TextBox
+    Friend WithEvents picFoto As PictureBox
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents apellido As DataGridViewTextBoxColumn
+    Friend WithEvents nombre As DataGridViewTextBoxColumn
     Friend WithEvents fechNac As DataGridViewTextBoxColumn
     Friend WithEvents sexo As DataGridViewTextBoxColumn
-    Friend WithEvents eliminar As DataGridViewTextBoxColumn
+    Friend WithEvents eliminar As DataGridViewButtonColumn
     Friend WithEvents saldo As DataGridViewTextBoxColumn
-    Friend WithEvents foto As DataGridViewTextBoxColumn
+    Friend WithEvents foto As DataGridViewImageColumn
     Friend WithEvents ruta As DataGridViewTextBoxColumn
-    Friend WithEvents nombre As DataGridViewTextBoxColumn
 
 End Class

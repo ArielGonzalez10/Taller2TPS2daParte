@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Fatima B\\OneDrive\\Documentos\\BretFatimaTp4y5\\Practico5\\Practico5\\",
+  "WorkspaceRootPath": "C:\\Users\\ariel\\source\\trabajosPraticos2daParte\\Practico5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9842C639-A5FE-46CE-ABB7-BD75A1F388A4}|Practico5.vbproj|c:\\users\\fatima b\\onedrive\\documentos\\bretfatimatp4y5\\practico5\\practico5\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{9842C639-A5FE-46CE-ABB7-BD75A1F388A4}|Practico5.vbproj|c:\\users\\ariel\\source\\trabajospraticos2daparte\\practico5\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{9842C639-A5FE-46CE-ABB7-BD75A1F388A4}|Practico5.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9842C639-A5FE-46CE-ABB7-BD75A1F388A4}|Practico5.vbproj|c:\\users\\fatima b\\onedrive\\documentos\\bretfatimatp4y5\\practico5\\practico5\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{9842C639-A5FE-46CE-ABB7-BD75A1F388A4}|Practico5.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{9842C639-A5FE-46CE-ABB7-BD75A1F388A4}|Practico5.vbproj|c:\\users\\ariel\\source\\trabajospraticos2daparte\\practico5\\form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{9842C639-A5FE-46CE-ABB7-BD75A1F388A4}|Practico5.vbproj|solutionrelative:form1.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9842C639-A5FE-46CE-ABB7-BD75A1F388A4}|Practico5.vbproj|c:\\users\\ariel\\source\\trabajospraticos2daparte\\practico5\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{9842C639-A5FE-46CE-ABB7-BD75A1F388A4}|Practico5.vbproj|solutionrelative:form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.vb [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Fatima B\\OneDrive\\Documentos\\BretFatimaTp4y5\\Practico5\\Practico5\\Form1.vb",
-              "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\Users\\Fatima B\\OneDrive\\Documentos\\BretFatimaTp4y5\\Practico5\\Practico5\\Form1.vb [Dise\u00F1o]",
-              "RelativeToolTip": "Form1.vb [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-08-20T21:42:27.247Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\Fatima B\\OneDrive\\Documentos\\BretFatimaTp4y5\\Practico5\\Practico5\\Form1.vb",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ariel\\source\\trabajosPraticos2daParte\\Practico5\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\Users\\Fatima B\\OneDrive\\Documentos\\BretFatimaTp4y5\\Practico5\\Practico5\\Form1.vb",
-              "RelativeToolTip": "Form1.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ariel\\source\\trabajosPraticos2daParte\\Practico5\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.vb [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-08-22T13:13:43.387Z",
+              "WhenOpened": "2025-08-24T15:06:55.038Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\ariel\\source\\trabajosPraticos2daParte\\Practico5\\Form1.resx",
+              "RelativeDocumentMoniker": "Form1.resx",
+              "ToolTip": "C:\\Users\\ariel\\source\\trabajosPraticos2daParte\\Practico5\\Form1.resx",
+              "RelativeToolTip": "Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-08-24T15:00:13.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\ariel\\source\\trabajosPraticos2daParte\\Practico5\\Form1.Designer.vb",
+              "RelativeDocumentMoniker": "Form1.Designer.vb",
+              "ToolTip": "C:\\Users\\ariel\\source\\trabajosPraticos2daParte\\Practico5\\Form1.Designer.vb",
+              "RelativeToolTip": "Form1.Designer.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-24T15:00:09.328Z",
               "EditorCaption": ""
             }
           ]
